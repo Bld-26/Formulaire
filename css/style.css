@@ -1,0 +1,25 @@
+*{
+    background-color: rgba(250, 235, 215, 0.856);
+}
+
+form{
+    display: flex;
+    height: 10vh;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+div input[type="submit"]
+{
+    width: 100cw;
+    background-color: rgba(103, 113, 216, 0.214);
+    
+}
+
+.div_submit{
+    width: 100%; /* Si on veut forcer un élément pourqu'il revient à la ligne, 0on lui donne une propriété whidth:100%; */
+    display: flex;
+    justify-content: flex-start;
+
+}
