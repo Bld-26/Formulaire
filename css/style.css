@@ -38,3 +38,15 @@ form div{
     margin: 1vh;
     
 }
+
+a{
+    text-decoration: none;
+    color: rgb(12, 42, 234);
+    
+}
+
+.sectionLien{
+    margin-top: 15vh;
+    display: flex;
+
+}
