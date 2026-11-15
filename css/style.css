@@ -4,15 +4,15 @@
 
 form{
     display: flex;
-    height: 10vh;
+    width: 30vw;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 1vw;
     
 }
 
 div input[type="submit"]
 {
-    width: 100cw;
     background-color: rgba(103, 113, 216, 0.214);
     
 }
@@ -22,4 +22,19 @@ div input[type="submit"]
     display: flex;
     justify-content: flex-start;
 
+}
+
+input{
+    field-sizing: content; /* adapte le tableaux pourque le texte du tableau*/
+}
+
+.sectionFoot{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+form div{
+    margin: 1vh;
+    
 }
